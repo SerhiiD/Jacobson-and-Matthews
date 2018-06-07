@@ -117,7 +117,7 @@ class IncidenceCube:
 
 
 
-def make_sudoku(size):
+def make_matrix(size):
     if 0 >= size or size > 42:
         return
 
@@ -130,4 +130,4 @@ def make_sudoku(size):
     return
 
 
-make_sudoku(3)
+make_matrix(3)
